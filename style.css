@@ -116,7 +116,12 @@ body {
     transform: translateY(0.5px);
 }
 
+img {
+    margin-top: 1rem;;
+}
+
 ::selection {
     background-color: var(--color-primary);
     color: white;
 }
+
