@@ -44,7 +44,9 @@ body {
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-primary);
-    background-image: linear-gradient(to left top, var(--color-primary-light), var(--color-primary-dark));
+    background-image: linear-gradient(to right bottom, rgba(244, 67, 54, 0.8), rgba(211, 47, 47, 0.8)), url(img/stormtrooper.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
 
@@ -71,6 +73,7 @@ body {
     flex-direction: row;
     list-style: none;
     text-align: center;
+    transition: all 2s;
 }
 
 .numbers__item {
@@ -123,5 +126,9 @@ img {
 ::selection {
     background-color: var(--color-primary);
     color: white;
+}
+
+.scale {
+    transform: scale(1.2);
 }
 

@@ -69,8 +69,10 @@ var controller = (function(dataCtrl){
 
         var fields = document.querySelectorAll(DOMstrings.numbers);
 
-        nodeListForEach(fields, function(cur, index){
-            cur.textContent = numbers[index];
+        nodeListForEach(fields, function(field, index){
+            field.textContent = numbers[index];
+            field.classList.add('scale');
+
         })
 
     }
