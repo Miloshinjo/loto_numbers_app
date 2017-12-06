@@ -87,9 +87,3 @@ var controller = (function(dataCtrl){
 
 controller.init();
 
-
-
-
-
-
-
